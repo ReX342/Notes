@@ -12,4 +12,7 @@ def david(request):
     return HttpResponse("Hello, David!")
 
 def greet(request, name):
-   return HttpResponse(f"Hello, {name.capitalize()}!")
+#    if name == ReX
+#        return HttpResponse(f"Hello, {name}!")
+#    else  
+        return HttpResponse(f"Hello, {name.capitalize()}!")
