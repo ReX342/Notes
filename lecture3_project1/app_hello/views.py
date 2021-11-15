@@ -9,4 +9,4 @@ def brian(request):
     return HttpResponse("Hello, Brian!")
 
 def david(request):
-    return
+    return HttpResponse("Hello, David!")
